@@ -1,5 +1,5 @@
-# My own portfolio project 
-# Sandesh Rai
+<h1 align=center>My own portfolio project </h1>
+<h2 align=center>Sandesh Rai</h2>
 
 - Responsive Personal Portfolio Website Using HTML CSS & JavaScript
 - Smooth scrolling in each section.
