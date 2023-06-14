@@ -1055,9 +1055,11 @@ background-color: var(--text-color-light);
   .footer__container{
     padding: 0;
   }
- /* #home{
+  /* for my laptop  */
+ #home{
   padding-top: 130px;
- }  */
+
+ } 
 
   .home__blob{
     width: 410px;
