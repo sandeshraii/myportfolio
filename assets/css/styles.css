@@ -1056,10 +1056,10 @@ background-color: var(--text-color-light);
     padding: 0;
   }
   /* for my laptop  */
- /* #home{
+ #home{
   padding-top: 130px;
 
- }  */
+ } 
 
   .home__blob{
     width: 410px;
