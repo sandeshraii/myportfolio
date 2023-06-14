@@ -960,6 +960,7 @@ background-color: var(--text-color-light);
   .nav__toggle{
     display: none;
   }
+ 
   .nav__list{
     display: flex;
     column-gap: 2rem;
@@ -982,7 +983,7 @@ background-color: var(--text-color-light);
   }
   .home__scroll{
     display: block;
-    padding-top: 5.5rem;
+    padding-top: 3.5rem;
   }
   .home__scroll-button{
     margin-left: 3rem;
@@ -1054,9 +1055,9 @@ background-color: var(--text-color-light);
   .footer__container{
     padding: 0;
   }
- #home{
+ /* #home{
   padding-top: 130px;
- } 
+ }  */
 
   .home__blob{
     width: 410px;
