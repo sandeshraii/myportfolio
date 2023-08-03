@@ -833,14 +833,17 @@ padding: 0 .3rem;
 border-radius: .4rem;
 z-index: var(--z-tooltip);
 transition: .4s;
-}
-.scrollup:hover{
-  background-color: var( --first-color-ait);
+border: 1px solid var(--first-color);
 }
 .scrollup_icon{
-font-size: 1.5rem;
-color : #fff;
+  font-size: 1.5rem;
+  color : #fff;
+  }
+.scrollup:hover{
+  background-color: var( --first-color-ait);
+  color: var(--first-color);
 }
+
 .scrollup_icon:hover{
   color: var(--first-color);
 }
