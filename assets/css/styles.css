@@ -984,6 +984,9 @@ background-color: var(--text-color-light);
   .home__blob{
     width: 280px;
   }
+  .home__img{
+    padding-top: 20px;
+  }
   .home__scroll{
     display: block;
     padding-top: 3.5rem;
