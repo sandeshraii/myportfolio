@@ -1069,6 +1069,9 @@ background-color: var(--text-color-light);
   .home__blob{
     width: 410px;
   }
+  .home__img{
+    padding-top: 25px;
+  }
   .home__social{
     transform: translateX(-6rem);
   }
