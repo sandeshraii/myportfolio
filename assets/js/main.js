@@ -172,6 +172,8 @@ sr.reveal('.home__data, .home__scroll, .project__container, .skills_container, .
 sr.reveal('.home__img, .home__social',{origin: 'bottom'})
 sr.reveal('.about__data',{origin: 'left'})
 sr.reveal('.about__img',{origin: 'right'})
+sr.reveal('.ok',{origin: 'top'})
+sr.reveal('.okk',{origin: 'bottom'})
 sr.reveal('',{interval: 100})
 
 /*==================== DARK LIGHT THEME ====================*/

@@ -23,7 +23,7 @@
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Sandesh</a>
+            <a href="#" class="nav__logo"><b>Sandesh</b></a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list grid">
@@ -38,6 +38,11 @@
                         </a>
                     </li>
                     <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i> Protfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
                         <a href="#skills" class="nav__link">
                             <i class="uil uil-file-alt nav__icon"></i> Skills
                         </a>
@@ -45,11 +50,6 @@
                     <li class="nav__item">
                         <a href="#services" class="nav__link">
                             <i class="uil uil-briefcase-alt nav__icon"></i> Services
-                        </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                            <i class="uil uil-scenery nav__icon"></i> Protfolio
                         </a>
                     </li>
                     <li class="nav__item">
@@ -128,7 +128,7 @@
                         <!-- <h3 class="home__subtitle">Web Developer</h3> -->
                         <p class="home__description">High level experience in web design and development knowledge,
                             producing quality work
-                        </br></br> <b>MeMo:</b> You won't Live Forever <b>:)</b> </p>
+                            </br></br> <b>MeMo:</b> You won't Live Forever <b>:)</b> </p>
                         <a href="https://www.youtube.com/@sandeshhang/" class="button button--flex " target="_blank">
                             Explore Me <i class="uil uil-message"></i>
                         </a>
@@ -179,6 +179,107 @@
                             Download CV<i class="uil uil-download-alt button__icon"></i>
                         </a>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PORTFOLIO ====================-->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Most Recent <b>Work</b></span>
+
+            <div class="portfolio__container container swiper-container">
+                <div class="swiper-wrapper">
+                    <!--==================== PORTFOLIO 1====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Educative Practitioner</h3>
+                            <p class="portfolio__description">Full-time Computer Science teaching experience for
+                                secondary level. </p>
+                            <p class="portfolio__description">For one year </p>
+                            <a href="https://www.linkedin.com/in/sandeshr571/details/experience/"
+                                class="button button--flex button--small portfolio__button" target="_blank">
+                                Have a Look
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 2====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Ecommerce Website</h3>
+                            <p class="portfolio__description">Full fleshed e-commerce website developed for
+                                the FYP of the university.</p>
+                            <p class="portfolio__description">React.js and Django</p>
+                            <a href="https://github.com/sandeshraii/FYP.git"
+                                class="button button--flex button--small portfolio__button" target="_blank">
+                                Have a Look
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--==================== PORTFOLIO 3====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Content Creator</h3>
+                            <p class="portfolio__description">Interested in video editing, photo editing, and content
+                                creation.</p>
+                            <a href="https://www.youtube.com/@sandeshhang"
+                                class="button button--flex button--small portfolio__button" target="_blank">
+                                Have a Look
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!--==================== PORTFOLIO 4====================-->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
+
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Training Center Website</h3>
+                            <p class="portfolio__description">Responsive website adaptable to all devices,
+                                with UI components and animated interactions.</p>
+                            <!-- <p class="portfolio__description">HTML, CSS, JavaScript </p> -->
+                            <a href="https://github.com/sandeshraii/Training-center.git"
+                                class="button button--flex button--small portfolio__button" target="_blank">
+                                Have a Look
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+                <!-- Add Arrowa -->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                <!-- add pagination  -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--==================== QR CODE ====================-->
+        <section class="section" id="qrcode">
+            <h2 class="section__title">Explore More</h2>
+            <span class="section__subtitle">Let's Go - <b>Scan It!</b></span>
+            <div class="qrbox">
+                <div class="qr">
+                    <img class="ok" src="assets/img/youqr.jpg" alt="Image 1">
+                    <img class="okk" src="assets/img/instaqr.jpg" alt="Image 2">
+                    <img class="ok" src="assets/img/faceqr.jpg" alt="Image 3">
+                    <img class="okk" src="assets/img/tikqr.jpg" alt="Image 4">
                 </div>
             </div>
         </section>
@@ -511,7 +612,8 @@
                                 </li>
                                 <li class="services__model-service">
                                     <i class="uil uil-check-circle services__model-icon"></i>
-                                    <p> <strong>Interaction Design:</strong> Describing how customers can use the product.
+                                    <p> <strong>Interaction Design:</strong> Describing how customers can use the
+                                        product.
                                     </p>
                                 </li>
                                 <li class="services__model-service">
@@ -600,93 +702,6 @@
                 </div>
             </div>
 
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most Recent <b>Work</b></span>
-
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-                    <!--==================== PORTFOLIO 1====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Educative Practitioner</h3>
-                            <p class="portfolio__description">Full-time Computer Science teaching experience for
-                                secondary level. </p>
-                            <p class="portfolio__description">For one year </p>
-                            <a href="https://www.linkedin.com/in/sandeshr571/details/experience/"
-                                class="button button--flex button--small portfolio__button" target="_blank">
-                                Have a Look
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-
-                        </div>
-                    </div>
-                    <!--==================== PORTFOLIO 2====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio4.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Ecommerce Website</h3>
-                            <p class="portfolio__description">Full fleshed e-commerce website developed for
-                                the FYP of the university.</p>
-                            <p class="portfolio__description">React.js and Django</p>
-                            <a href="https://github.com/sandeshraii/FYP.git" class="button button--flex button--small portfolio__button"
-                                target="_blank">
-                                Have a Look
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--==================== PORTFOLIO 3====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Content Creator</h3>
-                            <p class="portfolio__description">Interested in video editing, photo editing, and content
-                                creation.</p>
-                            <a href="https://www.youtube.com/@sandeshhang"
-                                class="button button--flex button--small portfolio__button" target="_blank">
-                                Have a Look
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!--==================== PORTFOLIO 4====================-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.png" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Training Center Website</h3>
-                            <p class="portfolio__description">Responsive website adaptable to all devices,
-                                with UI components and animated interactions.</p>
-                            <!-- <p class="portfolio__description">HTML, CSS, JavaScript </p> -->
-                            <a href="https://github.com/sandeshraii/Training-center.git" class="button button--flex button--small portfolio__button"
-                                target="_blank">
-                                Have a Look
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-
-                        </div>
-                    </div>
-
-                </div>
-                <!-- Add Arrowa -->
-                <div class="swiper-button-next">
-                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-                </div>
-                <div class="swiper-button-prev">
-                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-                </div>
-                <!-- add pagination  -->
-                <div class="swiper-pagination"></div>
-            </div>
         </section>
 
         <!--==================== PROJECT IN MIND ====================-->
