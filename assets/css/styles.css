@@ -478,7 +478,7 @@ display: flex;
 justify-content: center;
 }
 /*==================== QR ====================*/
-.qrcode{
+.qrcodesec{
   padding-top: 300px;
 }
 .qrbox {
@@ -489,7 +489,7 @@ justify-content: center;
   min-height: auto;
   /* background-color: #f4f4f4; */
 }
-.qr {
+.qrline {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
@@ -497,14 +497,14 @@ justify-content: center;
   width: 100%;
   padding: 20px;
 }
-.qr img {
+.qrline img {
   width: 100%;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 @media (max-width: 600px) {
-  .qr {
+  .qrline {
       grid-template-columns: repeat(2, 1fr);
   }
 }
