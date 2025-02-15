@@ -1,1 +1,4 @@
 git statusgit 
+git add .
+git commit -m "Updated QRcode and pages"
+git push
